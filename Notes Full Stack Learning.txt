@@ -1,0 +1,42 @@
+<!--This is a note to not forget what I learn on codeacademy as I progress in my
+full stack developper's learning-->
+
+<!--HTML LEARNING-->
+
+<!DOCTYPE html>
+
+<head> </head>
+
+<body>
+  <!--ATTRIBUTE SYNTAX-->
+  <a href="url link" target="_blank">url name</a> <!--redirecting in a local folder
+  and in a new page because of target-->
+  <a href="./url link" target="_blank">url name</a> <!--redirecting in a local folder
+  and in a new page because of target-->
+
+  <img src="url image link" alt="image name" /></img> <!--You can put this line in a 
+  <a href=""> <a> anchor to make the image redirect to another website-->
+  <video src="url=link" height="" width="" controls> <!--self containing element-->
+  what appears when not supported
+  </video>
+  <!--Use src for embbeded image or video and href for external redirecting link-->
+  
+  <div id="introduction">
+  </div>
+  <div id="Development">
+  </div>
+  <!--div are for separating paragraph and allow us to make de section easier to
+  read-->
+  <a href="#introduction">name of the redirecting</a> <!--This line will redirect me
+  to the div introduction 
+  section-->
+
+
+
+  <!--GENERAL KNOWLEDGE
+    -Always have 2 spaces identation between parent and child element
+    -
+
+  
+  -->
+</body>
