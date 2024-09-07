@@ -5,38 +5,46 @@ full stack developper's learning-->
 
 <!DOCTYPE html>
 
-<head> </head>
+<html>
 
-<body>
-  <!--ATTRIBUTE SYNTAX-->
-  <a href="url link" target="_blank">url name</a> <!--redirecting in a local folder
-  and in a new page because of target-->
-  <a href="./url link" target="_blank">url name</a> <!--redirecting in a local folder
-  and in a new page because of target-->
+    <head> 
+      <title> Name appearing in the tab </title>
+    </head>
 
-  <img src="url image link" alt="image name" /></img> <!--You can put this line in a 
-  <a href=""> <a> anchor to make the image redirect to another website-->
-  <video src="url=link" height="" width="" controls> <!--self containing element-->
-  what appears when not supported
-  </video>
-  <!--Use src for embbeded image or video and href for external redirecting link-->
-  
-  <div id="introduction">
-  </div>
-  <div id="Development">
-  </div>
-  <!--div are for separating paragraph and allow us to make de section easier to
-  read-->
-  <a href="#introduction">name of the redirecting</a> <!--This line will redirect me
-  to the div introduction 
-  section-->
+    <body>
+      <!--ATTRIBUTE SYNTAX-->
+      <a href="url link" target="_blank">url name</a> <!--redirecting in a local folder
+      and in a new page because of target-->
+      <a href="./url link" target="_blank">url name</a> <!--redirecting in a local 
+      folder and in a new page because of target-->
+
+      <img src="url image link" alt="image name" /></img> <!--You can put this line in a 
+      <a href=""> <a> anchor to make the image redirect to another website-->
+      <video src="url=link" height="" width="" controls> <!--self containing element-->
+      what appears when not supported
+      </video>
+      <!--Use src for embbeded image or video and href for external redirecting link-->
+      
+      <div id="introduction">
+      </div>
+      <div id="Development">
+      </div>
+      <!--div are for separating paragraph and allow us to make de section easier to
+      read-->
+      <a href="#introduction">name of the redirecting</a> <!--This line will redirect me
+      to the div introduction 
+      section-->
 
 
 
-  <!--GENERAL KNOWLEDGE
-    -Always have 2 spaces identation between parent and child element
-    -
+      <!--GENERAL KNOWLEDGE
+        -Always have 2 spaces identation between parent and child element
+        -All HTML code must be nested within html
+        -The title tag should only exist in the head tag
+        
 
-  
-  -->
-</body>
+      
+      -->
+    </body>
+
+</html>
