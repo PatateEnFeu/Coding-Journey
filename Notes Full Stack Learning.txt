@@ -18,7 +18,7 @@ full stack developper's learning-->
       <a href="./url link" target="_blank">url name</a> <!--redirecting in a local 
       folder and in a new page because of target-->
 
-      <img src="url image link" alt="image name" /></img> <!--You can put this line in a 
+      <img src="url image link" alt="image name" /> <!--You can put this line in a 
       <a href=""> <a> anchor to make the image redirect to another website-->
       <video src="url=link" height="" width="" controls> <!--self containing element-->
       what appears when not supported
