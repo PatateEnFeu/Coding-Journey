@@ -35,12 +35,19 @@ full stack developper's learning-->
       to the div introduction 
       section-->
 
+      <th scope="col or row">Saturday</th> <!--The scope indicate if it's a row or col heading
+      <td colspan or rowspan="2">Out of Town</td> <!--put the same value in 2 consecutive columns or columns-->
+
 
 
       <!--GENERAL KNOWLEDGE
         -Always have 2 spaces identation between parent and child element
         -All HTML code must be nested within html
         -The title tag should only exist in the head tag
+        -Table : tr-table row; td-table data; th-Table head; 
+        - only the column headings go under the <thead> element. We can use the scope attribute
+          on <th> elements to indicate whether a <th> element is being used as a "row" heading or
+          a "col" heading.
         
 
       
