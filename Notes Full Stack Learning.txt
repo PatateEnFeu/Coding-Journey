@@ -31,27 +31,42 @@ full stack developper's learning-->
       </div>
       <!--div are for separating paragraph and allow us to make de section easier to
       read-->
-      <a href="#introduction">name of the redirecting</a> <!--This line will redirect me
+      <a href="#introduction">name of the redirecting link</a> <!--This line will redirect me
       to the div introduction 
       section-->
+      <--Use section instead of div bc div is a non semantic tag/ section is usually used for
+        identification (id) purpose-->
 
       <th scope="col or row">Saturday</th> <!--The scope indicate if it's a row or col heading
       <td colspan or rowspan="2">Out of Town</td> <!--put the same value in 2 consecutive columns or columns-->
 
+      <audio controls>
+        <source src="" type="audio/mp3">
+      </audio> <!-- AUDIO SYNTAX-->
 
+      <link href='./style.css' rel="stylesheet"/> <!--syntax for linkintg css to html-->
 
-      <!--GENERAL KNOWLEDGE
-        -Always have 2 spaces identation between parent and child element
-        -All HTML code must be nested within html
-        -The title tag should only exist in the head tag
-        -Table : tr-table row; td-table data; th-Table head; 
-        - only the column headings go under the <thead> element. We can use the scope attribute
-          on <th> elements to indicate whether a <th> element is being used as a "row" heading or
-          a "col" heading.
-        
-
-      
-      -->
     </body>
 
 </html>
+
+<!--GENERAL KNOWLEDGE
+-Always have 2 spaces identation between parent and child element
+-All HTML code must be nested within html
+-The title tag should only exist in the head tag
+-Table : tr-table row; td-table data; th-Table head; 
+- only the column headings go under the <thead> element. We can use the scope attribute
+on <th> elements to indicate whether a <th> element is being used as a "row" heading           or a "col" heading.        
+
+-->
+
+<!--CSS LEARNING-->
+
+
+
+<!--GENERAL KNOWLEDGE
+- To select an HTML element by its class using CSS, a period (.) must be prepended to the class’s name/ by its id, a # must prepended (ajouté au début)
+- if we want to apply a style to different html element, we can use the attribute                  class=""(selector .classname in css); for a single element we can use id and the #id             selector in css
+- CSS pseudo-classes are used to add styles to selectors, but only when those selectors meet certain conditions (syntax  selector:pseudoclass
+- type < class < id (less specific to most specific) the more specicific selector will override the less specific one
+-->
