@@ -71,4 +71,5 @@ on <th> elements to indicate whether a <th> element is being used as a "row" hea
 - type < class < id (less specific to most specific) the more specicific selector will override the less specific one
 - For nested element like <li></li> inside <ul></ul>, the selector in CSS is: .classname elementname
 -you can put a comma betwwwn two unrelated selector for applyimg the same style : element,element (it can be 2 different element)
+-In positionning, relative position the element depending to where it would've been, but absolute positions the element relative to where the parent element is currently
 -->
