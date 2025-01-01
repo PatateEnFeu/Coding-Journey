@@ -56,8 +56,7 @@ full stack developper's learning-->
 -The title tag should only exist in the head tag
 -Table : tr-table row; td-table data; th-Table head; 
 - only the column headings go under the <thead> element. We can use the scope attribute
-on <th> elements to indicate whether a <th> element is being used as a "row" heading           or a "col" heading.        
-
+on <th> elements to indicate whether a <th> element is being used as a "row" heading or a "col" heading.        
 -->
 
 
@@ -65,6 +64,7 @@ on <th> elements to indicate whether a <th> element is being used as a "row" hea
 
 
 <!--CSS LEARNING-->
+
 
 
 
