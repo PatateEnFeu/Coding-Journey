@@ -62,7 +62,6 @@ on <th> elements to indicate whether a <th> element is being used as a "row" hea
 
 
 
-
 <!--CSS LEARNING-->
 
 
@@ -77,3 +76,22 @@ on <th> elements to indicate whether a <th> element is being used as a "row" hea
 -you can put a comma betwwwn two unrelated selector for applyimg the same style : element,element (it can be 2 different element)
 -In positionning, relative position the element depending to where it would've been, but absolute positions the element relative to where the parent element is currently
 -->
+
+
+
+<!--FLEXBOX LEARNING-->
+
+<!--GENERAL KNOWLEDGE
+display: flex changes an element to a block-level container with flex items inside of it.
+display: inline-flex allows multiple flex containers to appear inline with each other.
+justify-content is used to space items along the main axis.
+align-items is used to space items along the cross axis.
+flex-grow is used to specify how much space (and in what proportions) flex items absorb along the main axis.
+flex-shrink is used to specify how much flex items shrink and in what proportions along the main axis.
+flex-basis is used to specify the initial size of an element styled with flex-grow and/or flex-shrink.
+flex is used to specify flex-grow, flex-shrink, and flex-basis in one declaration.
+flex-wrap specifies that elements should shift along the cross axis if the flex container is not large enough.
+align-content is used to space rows along the cross axis.
+flex-direction is used to specify the main and cross axes.
+flex-flow is used to specify flex-wrap and flex-direction in one declaration.
+Flex containers can be nested inside of each other by declaring display: flex or display: inline-flex for children of flex containers.-->
