@@ -95,3 +95,23 @@ align-content is used to space rows along the cross axis.
 flex-direction is used to specify the main and cross axes.
 flex-flow is used to specify flex-wrap and flex-direction in one declaration.
 Flex containers can be nested inside of each other by declaring display: flex or display: inline-flex for children of flex containers.-->
+
+
+<!--SCALING IMAGES AND VIDEOS-->
+
+<!--GENERAL KNOWLEDGE
+
+.container {
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+It’s worth memorizing the entire example above. It represents a very common design pattern used to scale images and videos proportionally.
+-->
