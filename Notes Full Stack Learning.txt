@@ -114,4 +114,23 @@ Flex containers can be nested inside of each other by declaring display: flex or
 }
 
 It’s worth memorizing the entire example above. It represents a very common design pattern used to scale images and videos proportionally.
+
+
+
+
+<!--JS LEARNING-->
+
+<!--GENERAL KNOWLEDGE
+for...of loop : the iterator represents directly what's in the array and takes the type
+for...in loop : the iterator will always be a string so be careful to not use it as the element itself
+this keyword: use it in a method to reference the calling object, bc we don't have acces to the different properties of the object/ in the case of an arrow function this kw reference to the GLOBAL OBJECT and not the calling object, if you want to use a function then Refactor, or change the arrow function to use a function expression. You can write the function using either longhand or shorthand format and only then you'll be able to use this kw.
+
+getters: We use the get keyword followed by a function / In general, getter methods do not need to be called with a set of parentheses. Syntactically, it looks like we’re accessing a property.
+    Advantages: Getters can perform an action on the data when getting a property.
+    Getters can return different values using 
+    Preview: Docs Conditionals evaluate an expression (a piece of code that produces a value) to determine whether it is true       or false.
+    conditionals
+    .
+    In a getter, we can access the properties of the calling object using this.
+    The functionality of our code is easier for other developers to understand.
 -->
