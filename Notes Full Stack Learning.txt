@@ -133,4 +133,5 @@ getters: We use the get keyword followed by a function / In general, getter meth
     .
     In a getter, we can access the properties of the calling object using this.
     The functionality of our code is easier for other developers to understand.
+- Getters react to when you’re trying to read the property of an object, and setters react when you’re trying to write to the property of an object.
 -->
