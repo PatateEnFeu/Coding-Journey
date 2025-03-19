@@ -135,3 +135,9 @@ getters: We use the get keyword followed by a function / In general, getter meth
     The functionality of our code is easier for other developers to understand.
 - Getters react to when you’re trying to read the property of an object, and setters react when you’re trying to write to the property of an object.
 -->
+
+<!--GitHub-->
+
+<--
+- git reset: it undoes commits by moving the branch reference backward. (the new head commit is the one after reset, e.g.: git reset NEWHEADCOMMIT)
+- git checkout 'namecommit or sha-7': restores the files to the commit designated but do not change the commits history
