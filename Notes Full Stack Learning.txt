@@ -144,3 +144,4 @@ getters: We use the get keyword followed by a function / In general, getter meth
 - you can either with git reset :
     - Unstaging Changes Before a Commit (Undo git add)
     - Unstaging Changes After a Commit (Undo a Commit) -> use soft (commit undone but change are staged); mixed(commit is undone and the changes move to the working directory and are unstaged) or hard (teh entire commit is undone like it never existed)   
+- git stash saves your work temporarly while you work on other task, if you rerasy to take on where you left you can git stash pop
